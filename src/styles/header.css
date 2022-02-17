@@ -1,0 +1,39 @@
+header{
+  background: none;
+  color: white;
+  display:flex;
+  flex-direction:row;
+
+}
+
+.header_h1{
+  font-size: var(--xl-size);
+  color: green
+}
+
+.header_list{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+
+}
+
+.header_listitem{
+
+
+  border-bottom: none;
+  margin: 10px 9px;
+  display:flex;
+  flex-direction:row;
+  text-align: center;
+
+}
+
+
+@media (max-width:45rem) {
+  .header {
+    margin-bottom: var(--m-size);
+  }
+
+
+}

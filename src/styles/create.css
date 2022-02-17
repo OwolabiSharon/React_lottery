@@ -1,0 +1,153 @@
+body{
+  background-color: var(--off-white);
+}
+
+.signup-box{
+  width: 360px;
+  height: 550px;
+  margin:auto;
+  border-radius: 3px;
+  background: url(https://i.pinimg.com/736x/b0/3f/60/b03f601f00f0da493ff186f1de002cfb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--off-white);
+
+}
+.signup-box p{
+  margin: 10px;
+}
+p{
+  margin: 10px
+}
+
+h1{
+  text-align: center;
+  padding-top: 15px;
+
+}
+
+h4{
+  text-align: center;
+  margin: 10px
+}
+
+form{
+  width: 300px;
+  margin-left: 20px;
+
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+form button{
+  width:320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #333745;
+  color: white;
+  font-size: 18px;
+}
+
+form p{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 14px;
+  color: white
+}
+
+.loginP{
+  text-align: center;
+  color: black;
+  font-size: 15px;
+}
+
+.pie {
+  margin: 20px;
+  height: 620
+}
+
+.dashboard{
+  display: flex;
+}
+.buttonbuy{
+  margin-bottom:60px
+}
+.navbar2{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar2 h3{
+  font-size: 50px
+}
+.navbar2 ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  padding:12px;
+  position: relative;
+  font-size: 16px
+}
+
+.header_listitem2{
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.6s ease
+}
+.header_listitem2:visited {
+  color: black;
+}
+.header_listitem2:hover {
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: black;
+  color: #faebd7
+}
+
+.header_listitem2:active {
+  color: #faebd7;
+}
+
+@media (max-width: 819px) {
+  .navbar2{
+    width: 85%;
+    margin: 0;
+    padding: 13px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .navbar2 h3{
+    font-size: 40px;
+    margin-right: 16px
+  }
+  .navbar2 ul li{
+    list-style: none;
+    margin: 0 7px;
+    font-size: 12px;
+    position: relative;
+  }
+  .navbar2 ul{
+    display: flex;
+    flex-direction: row;
+  }
+}
