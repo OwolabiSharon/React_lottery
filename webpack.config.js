@@ -23,8 +23,5 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback:true
-  },
-  query: {
-      presets: ['es2015', 'react']
-}
+  }
 };
