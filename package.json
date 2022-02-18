@@ -10,12 +10,12 @@
     "dev-server": "webpack-dev-server"
   },
   "dependencies": {
+    "@babel/cli": "^7.17.3",
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.16.7",
     "axios": "^0.24.0",
-    "babel-cli": "6.24.1",
-    "babel-loader": "^7.0.0",
+    "babel-loader": "^8.2.3",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-object-rest-spread": "6.23.0",
     "css-loader": "0.28.4",
