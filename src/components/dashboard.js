@@ -139,7 +139,7 @@ render() {
           <h1>ticket booth</h1>
           <h4>70% of lottery winners go bankrupt after 3 years</h4>
             <form onSubmit={this.onsubmit} className="add-option">
-              <button className="buttonbuy">buy ticket</button>
+              <button className="buttonbuy">buy tickets</button>
               <h4>{this.state.display}</h4>
 
             </form>
