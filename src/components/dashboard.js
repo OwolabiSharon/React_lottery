@@ -2,7 +2,7 @@ import React, {useEffect,useRef,useState} from 'react';
 import useCountdown from './timerSet';
 import jwtToken from './login';
 import {NavLink} from 'react-router-dom';
-import { VictoryPie } from "victory-pie";
+import { VictoryPie } from "victory";
 import axios from 'axios';
 
 export default class Dashboard extends React.Component {
