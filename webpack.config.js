@@ -10,7 +10,10 @@ module.exports = {
     rules: [{
       loader: 'babel-loader',
       test: /\.js$/,
-      exclude: /node_modules/
+      exclude: /node_modules/,
+      query: {
+          presets: [ 'react', "env" ]
+        }
     }, {
       test: /\.css$/,
       use: [
@@ -23,5 +26,5 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback:true
-  }
+  },
 };
