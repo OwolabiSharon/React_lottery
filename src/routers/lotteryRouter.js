@@ -3,7 +3,7 @@ import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom'
 import Login from '../components/login';
 import Create from '../components/create';
 import Dashboard from '../components/dashboard';
-import Topup from '../components/topup';
+import Topup from '../components/topUp';
 import Terms from '../components/terms';
 // import HelpPage from '../components/HelpPage';
 import NotFoundPage from '../components/NotFoundPage';
